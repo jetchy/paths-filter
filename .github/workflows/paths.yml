@@ -10,7 +10,6 @@ jobs:
     - uses: dorny/paths-filter@v2
       id: filter
       with:
-        list-files: shell
         filters: |
           root:
             - '.github/**'
